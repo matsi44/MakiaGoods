@@ -1,0 +1,23 @@
+{
+  "name": "watches",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsi44/MakiaGoods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsi44/MakiaGoods/issues"
+  },
+  "homepage": "https://github.com/matsi44/MakiaGoods#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
