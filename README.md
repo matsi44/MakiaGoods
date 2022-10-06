@@ -1,2 +1,0 @@
-# MakiaGoods
-Apple Watch Band
