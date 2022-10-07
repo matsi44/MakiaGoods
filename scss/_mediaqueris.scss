@@ -1,0 +1,65 @@
+@media (max-width: 1000px){
+    .contenedor-main{
+        width: 100%;
+        p{
+            margin-left: 10rem;
+            margin-right: 10rem;
+        }
+    }
+    .contenedor-main-photos{
+        flex-direction: column;
+        img{
+            width: 50%;
+            height: 50%;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .contenedor-main-photo1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tarjetas{
+        img{
+            width: 55%;
+            height: 55%;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .free-shipping{
+        h4{
+        font-size: 1.2rem;
+        }
+    }
+    .contenedor-main{
+        p{
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    }
+    .tarjetas{
+        img{
+            width: 80%;
+            height: 80%;
+        }
+    }
+    .contenedor-main3{
+        flex-direction: column;
+    }
+    .contenedor-links{
+        margin-top: -5rem;
+        ul{
+            li{
+                display: block;
+                padding: 0.5rem;
+            }
+        }
+    }
+    .contenedor-email{
+        margin-bottom: 2rem;
+    }
+}
+
+
