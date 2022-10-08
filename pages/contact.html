@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Tracking-Makia</title>
+    <title>Contact Us-Makia</title>
 </head>
 <body>
     <div class="free-shipping">
@@ -27,10 +27,10 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./tracking.html">Track Order</a>
+                            <a class="nav-link" href="./tracking.html">Track Order</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About Us
                             </a>
                             <ul class="dropdown-menu">
@@ -49,18 +49,49 @@
             </div>
             </nav>
     </header>
-    <main class="main-tracking">
-        <div>
-            <h2>Track Your Order</h2>
-        </div>
-        <div>
-            <h4>Tracking Number</h4>
-        </div>
-        <form class="main-tracking-form">
-            <label for="TrackingNumber"></label>
-            <input type="number" name="TrackingNumber">
-            <input type="submit" value="Send">
-        </form>
+    <main id="ContactUs" class="main-con">
+        <section class="contenedor-con">
+            <div class="main-contact-h2">
+                <h2>Contact Us</h2>
+            </div>
+            <form action="" class="main-contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label for="lastname">Lastname:</label>
+                    <input type="text" name="lastname">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <select name="age">
+                        <option value="20-35">18-35</option>
+                        <option value="35-50">35-50</option>
+                        <option value="50+">50+</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="M"> M
+                    <input type="radio" name="gender" value="F"> F
+                    <input type="radio" name="gender" value="Neuter"> Neuter
+                </div>
+                <div>
+                    <p>Chat with us! We would love to read you.</p>
+                    <label for="chat"></label>
+                    <textarea cols="30" rows="15" name="chat"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset"> 
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="contenedor-footer">
         <div>

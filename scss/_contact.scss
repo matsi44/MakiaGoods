@@ -1,0 +1,25 @@
+/* MAIN CONTACT */
+.main-con{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". mainc ."
+    ;
+}
+.contenedor-con{
+    grid-area: mainc;
+    font-size: 2rem;
+    text-align: center;
+    h2{
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 1.5rem 0rem;
+    }
+    div{
+        margin: 1.5rem 0rem;
+    }
+}

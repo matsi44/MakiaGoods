@@ -1,0 +1,31 @@
+/* MAIN TRACKING */
+.main-au{
+    width: 100%;
+}
+
+.contenedor-au{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    ". title ."
+    ". text . "
+    ;
+    h2{
+        grid-area: title;
+        font-size: 4rem;
+        text-align: left;
+        font-weight: 700;
+        margin-top: 1.5rem;
+    }
+    .contenedor-texto{
+        grid-area: text;
+    }
+    p{
+        grid-area: text;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 300;
+        margin: 2rem 0rem;
+    }
+    }
